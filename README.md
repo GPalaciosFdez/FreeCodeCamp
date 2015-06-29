@@ -1,2 +1,2 @@
 # FreeCodeCamp
-Free Code Camp's Waypoints
+Free Code Camp's Bonfires
