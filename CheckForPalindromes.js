@@ -1,14 +1,16 @@
 function palindrome(str) {
-    // Good luck!
+  // Good luck!
 
-    str = str.replace(/\W/ig, "").toLowerCase();
-    str_reversed = str.split("").reverse().join("");
+  str=str.replace(/\W/ig,"").toLowerCase();
+  str_reversed=str.split("").reverse().join("");
+  
+  if(str_reversed===str){
+    return true;
+  }
 
-    if (str_reversed === str) {
-        return true;
-    } else {
-        return false;
-    }
+  else{
+    return false;
+  }
 }
 
 palindrome("eye");
